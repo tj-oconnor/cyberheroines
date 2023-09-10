@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Choose Your Path</title>
+  <style>
+    body {
+      font-family: "Roboto Mono", monospace;
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      height: 100vh;
+    }
+    .container {
+      text-align: center;
+    }
+    .container img {
+      display: block;
+      margin: 0 auto;
+      max-width: 25vw; /* 25% of viewport width */
+      height: auto; /* Maintain aspect ratio */
+    }
+    .container a {
+      display: block;
+      font-size: 18px;
+      color: hotpink;
+      text-decoration: none;
+      transition: color 0.3s;
+      margin-top: 10px;
+    }
+    .container a:visited {
+      color: hotpink;
+    }
+    .container a:hover {
+      color: purple;
+    }
+  </style>
+</head>
+<body>
+  <div class="container">
+    <img src="hacker.png" alt="Logo">
+    <a href="easy.html">Do you want an easy path?</a>
+    <a href="difficult.php">Do you want a difficult path?</a>
+  </div>
+</body>
+</html>
+

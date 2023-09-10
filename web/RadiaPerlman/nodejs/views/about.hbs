@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Us</title>
+  <style>
+    body {
+      font-family: 'Roboto Mono', monospace;
+      background-color: black;
+      color: white;
+      margin: 0;
+      padding: 0;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      height: 100vh;
+    }
+
+header {
+      background-color: black;
+      color: hotpink;
+      padding: 1em;
+      border: 1px solid black;
+      text-shadow: 0 0 15px hotpink;
+      font-family: 'Consolas', 'Courier', monospace;
+      font-size: 30px;
+      text-align: center;
+      position: relative; /* Add position relative */
+    }
+
+    nav {
+      background-color: black;
+      display: flex;
+      justify-content: space-between;
+      width: 100%;
+      padding: 0.5em 1em;
+      position: absolute; /* Add position absolute */
+      top: 0; /* Place the nav at the top of the header */
+      left: 0; /* Align nav to the left edge */
+    }
+
+    a {
+      color: hotpink;
+      text-decoration: none;
+      text-shadow: 0px 0px 10px hotpink;
+      transition: color 0.3s;
+    }
+
+    a:visited {
+      color: hotpink;
+    }
+
+    a:hover {
+      color: purple;
+    }
+
+    main {
+      padding: 1em;
+      text-align: center;
+    }
+
+    footer {
+      text-align: center;
+      padding: 1em;
+      background-color: black;
+      color: hotpink;
+      border-top: 1px solid hotpink;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <nav> <!-- Move nav inside the header -->
+      <a href="/">Home</a>
+      <a href="/about">About</a>
+      <a href="/contact">Contact</a>
+    </nav>
+    <h1>About Us</h1>
+  </header>
+  
+  <main>
+    <h2>Welcome to Our About Page</h2>
+    <p>“The Internet was not invented by any individual. There are lots of people who like to take credit for it, and it drives them crazy when anyone other than them seems to want credit, so it seems best to just stay out of their way.” - Radia Perlman</p>
+    <br>
+    <p> That being said, please try out our awesome <a href="/">DNS Querying WebApp</a></p>
+  </main>
+
+  <footer>
+    <p>&copy; 2023 Cyber Heroines CTF.</p>
+  </footer>
+</body>
+</html>
+

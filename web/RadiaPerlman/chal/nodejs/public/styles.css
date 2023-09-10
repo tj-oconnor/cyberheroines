@@ -1,0 +1,28 @@
+body {
+  font-family: Arial;
+}
+
+header {
+  background-color: #111;
+  color: #411;
+  padding: 1em;
+  border: 1px solid black;
+  text-shadow: 0 0 15px #411;
+  font-family: Consolas, Courier, monospace;
+  font-size: 30px;
+}
+
+nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+a {
+  color: #f00;
+  text-decoration: none;
+  text-shadow: 0px 0px 10px #f00;
+}
+
+main {
+  padding: 1em;
+}

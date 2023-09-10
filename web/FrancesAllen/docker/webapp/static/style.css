@@ -1,0 +1,104 @@
+body {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Roboto Mono", monospace;
+    margin: 0; /* Add to remove default margin */
+    height: 100vh; /* Add to ensure full viewport height */
+}
+
+        .challenge-container {
+            width: 85%;
+            height:100%;
+            background-color: black;
+            padding: 20px 40px;
+            border-radius: 10px;
+            box-shadow: 0 0 15px rgba(0, 0, 0, 0.2);
+            position: relative; /* Added */
+        }
+
+        .heroine {
+            width: 20%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .challenge-title {
+            font-size: 2.5em;
+            font-family: 'Roboto Mono', monospace;
+            margin-bottom: 20px;
+            text-align: center;
+            color: hotpink;
+        }
+
+        .challenge-description {
+            font-size: 1.2em;
+            font-family: 'Roboto Mono', monospace;
+            margin-bottom: 20px;
+            color: white;
+             position: relative; /* Added */
+        }
+
+        .challenge-hint {
+            font-size: 0.9em;
+            background-color: #2C3A47;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            color: white;
+        }
+
+        .challenge-description p {
+            color: hotpink;
+            display: inline; 
+        }
+
+        button {
+            padding: 10px 15px;
+            font-family: 'Roboto Mono', monospace;
+            font-size: 1em;
+            border: thin;
+            border-color: purple;
+            background-color: hotpink;
+            color: white;
+            border-radius: 5px;
+            cursor: pointer;
+            transition: background-color 0.3s;
+            display: block;
+            margin: 0 auto; /* Center the button */
+        }
+
+        button:hover {
+            background-color: purple;
+        }
+
+        form {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        input[type="text"],
+        textarea {
+            width: 100%;
+            padding: 10px;
+            margin-bottom: 10px;
+            border: thin;
+            border-color: purple;
+            border-radius: 5px;
+            color: hotpink;
+            background-color: #2C3A47;
+            font-family: 'Roboto Mono', monospace;
+        }
+
+        .output {
+            width: 100%;
+            background-color: #2C3A47;
+            padding: 10px;
+            border-radius: 5px;
+            font-family: 'Roboto Mono', monospace;
+            color: hotpink;
+            margin-top: 20px;
+        }

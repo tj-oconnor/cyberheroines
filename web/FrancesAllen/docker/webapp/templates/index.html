@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+    <title>CyberHeroines</title>
+</head>
+
+<body>
+    <div class="challenge-container">
+        <img src={{ url_for('static', filename='heroine.png') }} class="heroine">
+        <div class="challenge-title">
+            Nominate A Cyber Heroine
+        </div>
+        <div class="challenge-description">
+          "And I certainly want to have many many more women, and men, but especially women, have the experience of winning an award as I have done." - <p>Frances Allen, Keynote Address, 2008 Grace Hopper Celebration</p>
+        </div>
+        <form action="/" method="POST">
+            <input type="text" name="name" placeholder="Nominate a cyber heroine here...">
+            <textarea name="biography" placeholder="Enter the biography of the nominee..." rows="4"></textarea>
+            <button type="submit">Nominate</button>
+        </form>
+        <br>
+    </div>
+</body>
+
+</html>
+

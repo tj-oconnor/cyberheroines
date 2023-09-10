@@ -1,0 +1,47 @@
+<style>
+  body {
+    font-family: 'Roboto Mono', monospace;
+    background-color: black;
+    color: white;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+
+  header {
+    background-color: black;
+    color: hotpink;
+    padding: 1em;
+    border: 1px solid black;
+    text-shadow: 0 0 15px hotpink;
+    font-family: 'Consolas', 'Courier', monospace;
+    font-size: 30px;
+  }
+
+  nav {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  a {
+    color: hotpink;
+    text-decoration: none;
+    text-shadow: 0px 0px 10px hotpink;
+    transition: color 0.3s;
+  }
+
+  a:visited {
+    color: hotpink;
+  }
+
+  a:hover {
+    color: purple;
+  }
+
+  main {
+    padding: 1em;
+  }
+</style>
